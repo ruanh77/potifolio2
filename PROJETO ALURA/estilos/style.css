@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.titulo-destaque{
+    color: yellow;
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-link{
+    font-family:"Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: yellow;
+    text-decoration: none;
+}
+
+.apresentacao{
+    margin: 5% 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao-conteudo{
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao-h1{
+     font-size: 36px;
+     font-family: "Krona One", sans-serif;
+     
+}
+.apresentacao-p{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.apresentacao-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacao-subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao-link-link{
+   border: solid 2px yellow;
+   display: flex;
+   justify-content: center;
+   gap: 16px;
+    width: 388px;
+    border-radius: 8px;
+    font-size: 24px;
+    text-align: center;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.apresentacao-link-link:hover{
+    background-color: #272727;
+}
+
+
+.imagem-logo{
+    width: 700px;
+    height: 600px;
+    border-radius: 20px;
+
+}
